@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="Recuperação de Senha"
+        android:textSize="30dp"
+        android:textColor="#000">
+    </TextView>
+
+    <EditText
+        android:id="@+id/edittextCPF"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="CPF">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edittextTel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Telefone"
+        android:inputType="phone">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonvai"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/button_androidshape"
+        android:text="Enviar">
+
+    </Button>
+</LinearLayout>
